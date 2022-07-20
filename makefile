@@ -1,5 +1,5 @@
-all: read_binary
-	gcc -o read_binary read_binary.c
+all: add-nbo
+	gcc -o add-nbo add-nbo.c
 
 clean:
-	rm -rf read_binary
+	rm -rf add-nbo
